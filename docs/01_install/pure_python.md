@@ -1,7 +1,7 @@
 # Pure Python 
 
 !!! note "Note:" 
-    This is a work in progress
+    This is a work in progress.
 
 ## Pre requisites
 
@@ -58,13 +58,15 @@ echo "export ELENA_HOME=$HOME/local_data" >> $HOME/.bashrc
 
 ## Configure cron
 
+Download the cron shell script:
 ```
 wget https://raw.githubusercontent.com/Pasta-fantasia/elena-docs/main/docs/assets/configs_2.2.2/cron.sh
 ```
-
+Add this line using _crontab -e_
 ```
-* * * * * BASH_ENV=~/.bashrc bash -l -c "printenv > /tmp/print_envs_result"
+* * * * * BASH_ENV=~/.bashrc bash -c -l "bash cron.sh"
 ```
+Wait for a minute, and you should find last.log file on $HOME with the same contents of the image above.
 
 ## Congratulations!
 
