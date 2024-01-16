@@ -15,6 +15,7 @@ mkdocs serve -a 0.0.0.0:8000
 
 ## TODOs
 
+Check [project](https://github.com/orgs/Pasta-fantasia/projects/1/views/1)
 
 ## Useful links to publish
 
