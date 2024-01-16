@@ -29,16 +29,16 @@ pip install git+https://github.com/Pasta-fantasia/elena-notifications-telegram.g
 ## Create a data directory 
 
 ```
-mkdir $HOME/L_working
+mkdir $HOME/local_data
 ```
 
-## Configure strategies
+## Create basic configuration files
+
 
 ## Configure bash environment 
 ```
-cd $HOME
 echo "source $HOME/elena2_venv/bin/activate" >> $HOME/.bashrc
-echo "export ELENA_HOME=$HOME/L_working" >> $HOME/.bashrc
+echo "export ELENA_HOME=$HOME/local_data" >> $HOME/.bashrc
 ```
 
 ## Configure cron
