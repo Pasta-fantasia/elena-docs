@@ -28,12 +28,27 @@ pip install git+https://github.com/Pasta-fantasia/elena-notifications-telegram.g
 
 ## Create a data directory 
 
-```
+```shell
 mkdir $HOME/local_data
 ```
 
 ## Create basic configuration files
 
+```shell
+cd $HOME/local_data
+wget https://raw.githubusercontent.com/Pasta-fantasia/elena-docs/main/docs/assets/configs_2.2.2/config.yaml
+wget https://raw.githubusercontent.com/Pasta-fantasia/elena-docs/main/docs/assets/configs_2.2.2/secrets.yaml
+wget https://raw.githubusercontent.com/Pasta-fantasia/elena-docs/main/docs/assets/configs_2.2.2/strategies.yaml
+```
+## Test
+
+```shell
+cd
+elena
+```
+You should see something like:
+
+![img.png](img.png)
 
 ## Configure bash environment 
 ```
@@ -42,3 +57,16 @@ echo "export ELENA_HOME=$HOME/local_data" >> $HOME/.bashrc
 ```
 
 ## Configure cron
+
+```
+wget https://raw.githubusercontent.com/Pasta-fantasia/elena-docs/main/docs/assets/configs_2.2.2/cron.sh
+```
+
+```
+* * * * * BASH_ENV=~/.bashrc bash -l -c "printenv > /tmp/print_envs_result"
+```
+
+## Congratulations!
+
+Now you have the basic Elena installed.
+The next step is to configure the [exchanges](/02_config/exchanges/), [telegram](/02_config/telegram/) (optional) and your [strategies](/03_strategies/).

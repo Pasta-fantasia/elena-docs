@@ -1,4 +1,5 @@
 # Strategies
+## Use cases - which strategy is best for you?
 
 ## DCA_Strict
 

@@ -59,8 +59,10 @@ nav:
   - 'Install':
     - 'Pure Python': '01_install/pure_python.md'
     - 'Docker': '01_install/docker.md'
-    - 'Telegram': '01_install/telegram.md'
-  - 'Strategies': '02_strategies/index.md'
+  - 'Config':
+    - 'Exchanges': '02_config/exchanges.md'
+    - 'Telegram': '02_config/telegram.md'
+  - 'Strategies': '03_strategies/index.md'
   - 'Resources': 'resources.md'
   - 'Donate': 'donate.md'
   - 'About':
