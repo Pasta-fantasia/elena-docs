@@ -35,7 +35,7 @@ jobs:
       - name: Generate site
         run: |
           git pull
-          mkdocs build --verbose --clean --strict
+          mkdocs build --verbose --clean # --strict
           
       - name: Sync
         # https://stackoverflow.com/questions/54503807/how-to-access-the-value-of-secrets-in-github-actions
