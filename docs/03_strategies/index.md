@@ -1,4 +1,8 @@
 # Strategies
+
+!!! note "Note:" 
+    This is a work in progress.
+
 ## Use cases - which strategy is best for you?
 
 ## DCA_Strict
