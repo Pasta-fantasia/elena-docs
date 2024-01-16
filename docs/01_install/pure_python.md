@@ -1,8 +1,13 @@
-# Pre requisites
+# Pure Python 
+
+!!! note "Note:" 
+    This is a work in progress
+
+## Pre requisites
 
 The pure-python install assumes that you are working on a linux machine running Debian 12 (bookworm) or similar Raspberry Pi OS using Python 3.11
 
-# Modules installation
+## Modules installation
 
 Install the modules on a new virtual environment.
 
@@ -21,19 +26,19 @@ pip install git+https://github.com/Pasta-fantasia/elena-basics.git@v0.0.5
 pip install git+https://github.com/Pasta-fantasia/elena-notifications-telegram.git@main
 ```
 
-# Create a data directory 
+## Create a data directory 
 
 ```
 mkdir $HOME/L_working
 ```
 
-# Configure strategies
+## Configure strategies
 
-# Configure bash environment 
+## Configure bash environment 
 ```
 cd $HOME
 echo "source $HOME/elena2_venv/bin/activate" >> $HOME/.bashrc
 echo "export ELENA_HOME=$HOME/L_working" >> $HOME/.bashrc
 ```
 
-# Configure cron
+## Configure cron
