@@ -63,10 +63,11 @@ nav:
     - 'Exchanges': '02_config/exchanges.md'
     - 'Telegram': '02_config/telegram.md'
   - 'Strategies': '03_strategies/index.md'
+  - 'Roadmap': '04_roadmap/index.md'
   - 'Resources': 'resources.md'
   - 'Donate': 'donate.md'
   - 'About':
-      - 'Fran Simó': 'about/fran_simo.md'
+      - 'Team': 'about/team.md'
       - 'License': 'license.md'
       - 'Release Notes': 'release-notes.md'
   - 'Print': '/print_page/'
