@@ -7,9 +7,23 @@
 
 The pure-python install assumes that you are working on a linux machine running Debian 12 (bookworm) or similar Raspberry Pi OS using Python 3.11
 
+### System libraries
+Most Debian had already installed Python3 and its basics components, but you may want to run this _apt installs_ as root or sudo:
+
+```shell
+apt update
+apt install -y python3 build-essential git libssl-dev gcc python3.11-venv wget cron
+```
+### Dedicated user
+
+It's recommended to create a dedicated user. This guide also assumes that.
+```shell
+useradd elena2 --user-group --create-home --shell /bin/bash 
+```
+
 ## Modules installation
 
-Install the modules on a new virtual environment.
+Logged as the dedicated user, install the modules on a new virtual environment.
 
 The modules are:
 
