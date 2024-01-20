@@ -1,5 +1,8 @@
 # DCA_Conditional_Buy_LR_with_TrailingStop
 
+!!! note "Note:" 
+    This is a work in progress.
+
 ## BTC
 
 ### Bear
@@ -21,13 +24,17 @@
 ### Up_and_down
 
 [Binance_BTC-USDT_1w_2019-11-01_2019-11-01_2024-01-20_1555](Up_and_down/Binance_BTC-USDT_1w_2019-11-01_2019-11-01_2024-01-20_1555)
+
 [Binance_BTC-USDT_1d_2019-11-01_2019-11-01_2024-01-20_1523](Up_and_down/Binance_BTC-USDT_1d_2019-11-01_2019-11-01_2024-01-20_1523)
+
 [Binance_BTC-USDT_1h_2019-11-01_2019-11-01_2024-01-20_1556](Up_and_down/Binance_BTC-USDT_1h_2019-11-01_2019-11-01_2024-01-20_1556)
 
 ### Long Term
 
 [Binance_BTC-USDT_1w_2017-01-01_2017-01-01_2024-01-20_1543](LongTerm/Binance_BTC-USDT_1w_2017-01-01_2017-01-01_2024-01-20_1543)
+
 [Binance_BTC-USDT_1h_2017-01-01_2017-01-01_2024-01-20_1633](LongTerm/Binance_BTC-USDT_1h_2017-01-01_2017-01-01_2024-01-20_1633)
+
 [Binance_BTC-USDT_1d_2017-01-01_2017-01-01_2024-01-20_1526](LongTerm/Binance_BTC-USDT_1d_2017-01-01_2017-01-01_2024-01-20_1526)
 
 

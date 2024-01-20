@@ -60,7 +60,7 @@ nav:
     - 'Exchanges': '02_config/exchanges.md'
     - 'Telegram': '02_config/telegram.md'
   - 'Strategies':
-      - 'Use cases': '03_strategies/index.md'
+      - 'Use cases and overview': '03_strategies/index.md'
       - 'DCA_Conditional_Buy_LR_with_TrailingStop': '03_strategies/DCA_Conditional_Buy_LR_with_TrailingStop'
   - 'Roadmap': '04_roadmap/index.md'
   - 'Resources': 'resources.md'
