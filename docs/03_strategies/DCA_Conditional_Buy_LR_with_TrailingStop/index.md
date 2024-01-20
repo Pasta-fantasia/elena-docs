@@ -3,6 +3,8 @@
 !!! note "Note:" 
     This is a work in progress. It's a software configuration guide. This Is Not Financial Advice.
 
+Experiment's source code can be found [here](https://github.com/Pasta-fantasia/backtesting_notebooks).
+
 ## BTC
 
 ### Bear
