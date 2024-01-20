@@ -72,7 +72,7 @@ nav:
   - 'Print': '/print_page/'
 
 extra_css:
-  - stylesheets/extra.css
+#  - stylesheets/extra.css
 
 theme:
   # name: mkdocs
