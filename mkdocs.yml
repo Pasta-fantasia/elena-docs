@@ -49,9 +49,6 @@ markdown_extensions:
   - tables
   - attr_list
   - md_in_html
-  - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
 
 nav:
   # - 'Conexión': 'stream.md'
@@ -62,7 +59,9 @@ nav:
   - 'Config':
     - 'Exchanges': '02_config/exchanges.md'
     - 'Telegram': '02_config/telegram.md'
-  - 'Strategies': '03_strategies/index.md'
+  - 'Strategies':
+      - 'Use cases': '03_strategies/index.md'
+      - 'DCA_Conditional_Buy_LR_with_TrailingStop': '03_strategies/DCA_Conditional_Buy_LR_with_TrailingStop'
   - 'Roadmap': '04_roadmap/index.md'
   - 'Resources': 'resources.md'
   - 'Donate': 'donate.md'
