@@ -62,6 +62,7 @@ nav:
   - 'Strategies':
       - 'Use cases and overview': '03_strategies/index.md'
       - 'DCA_Conditional_Buy_LR_with_TrailingStop': '03_strategies/DCA_Conditional_Buy_LR_with_TrailingStop'
+      - 'Configuration by example': '03_strategies/configuration_by_example.md'
   - 'Roadmap': '04_roadmap/index.md'
   - 'Resources': 'resources.md'
   - 'Donate': 'donate.md'
