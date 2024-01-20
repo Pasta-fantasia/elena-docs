@@ -1,7 +1,7 @@
 # Strategies
 
 !!! note "Note:" 
-    This is a work in progress.
+    This is a work in progress. It's a software configuration guide. This Is This Is Not Financial Advice.
 
 ## Use cases - which strategy is best for you?
 
