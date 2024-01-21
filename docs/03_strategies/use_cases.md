@@ -8,6 +8,7 @@
 - DCA_Strict: 
     - You're a believer in crypto and you're playing very long... 
     - Only buys.
+    - Why use Elena and not your exchange "auto invest"? At least in Binance, Elena is cheaper. You can also automate in one place several exchanges.
 - DCA_Conditional_Buy_LR: 
     - A believer that wants to avoid buying during a fall.
     - Only buys.
@@ -37,20 +38,20 @@ Strategies:
         pair: BTC/USDT
         exchange: binance
         time_frame: 1h # Valid values: 1m, 1h, 1d, 1M, 1y
-        cron_expression: "0,30 * * * *" # At every 5th minute
+        cron_expression: "0,30 * * * *" # At 0 and 30 minutes of every hour
         budget_limit: 600.0 # Buy up to 600 UDST
         pct_reinvest_profit: 100.0 # reinvest all profits
 ````
 
 Parameters:
 
-- strategy_class:
-- pair:
-- exchange:
-- time_frame:
-- cron_expression:
-- budget_limit:
-- pct_reinvest_profit:
+- strategy_class: this chooses what strategy to use.
+- pair: uppercase string literal of a pair of currencies (as [CCXT](https://github.com/ccxt/ccxt/wiki) express it)
+- exchange: exchange name [as represented in Elena](https://github.com/Pasta-fantasia/elena/blob/main/elena/domain/model/exchange.py#L5).
+- time_frame: default timeframe for the candles retrival from exchange [as represented in Elena](https://github.com/Pasta-fantasia/elena/blob/main/elena/domain/model/time_frame.py#L4) 
+- cron_expression: [cron expression](https://crontab.guru/) that defines when the bot is going to be executed. The default installation in this guid makes Elena to execute every minute but a weekly DCA can uses something like "0 0 12 ? * SUN"
+- budget_limit: sets how much can spend. 0 means no limit. On any buy the strategies check if there is budget on the bot and balance on the exchange. You can assign 100 USDT on the bot while you keep 300 USDT on the exchange.
+- pct_reinvest_profit: sets, after a profitable trade, how much of that profit will become part of the budget.
 
 ## DCA_Strict
 
@@ -89,8 +90,8 @@ Strategies:
 
 Parameters:
 
-- spend_on_order:
-- lr_buy_longitude:
+- spend_on_order: how much can spend on every single order, budget and balance are checked.
+- lr_buy_longitude: number of timeframe point to calculate the linear regression. In a 1d time fame is the number of days.
 
 
 ## DCA_Conditional_Buy_LR_with_TrailingStop
@@ -117,8 +118,8 @@ Strategies:
 
 Parameters:
 
-- spend_on_order:
-- lr_buy_longitude:
+- spend_on_order: how much can spend on every single order, budget and balance are checked.
+- lr_buy_longitude: number of timeframe point to calculate the linear regression. In a 1d time fame is the number of days.
 - band_length:
 - band_mult:
 - minimal_benefit_to_start_trailing:

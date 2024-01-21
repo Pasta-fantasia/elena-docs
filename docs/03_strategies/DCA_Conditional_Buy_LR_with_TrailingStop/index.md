@@ -7,8 +7,9 @@ Experiment's source code can be found [here](https://github.com/Pasta-fantasia/b
 
 ## Scenarios and best results
 
-DCA_Conditional_Buy_LR_with_TrailingStop works better on _1 day_ timeframe in any scenario.
+DCA_Conditional_Buy_LR_with_TrailingStop works better on _1 day_ timeframe in any scenario. It took thousands of test sampling ranging dates to discard minute and hourly trading for this strategy.
 
+Sampling moving and overlapping dates helped to reduce the parameters space.  
 
 ### Range
 
