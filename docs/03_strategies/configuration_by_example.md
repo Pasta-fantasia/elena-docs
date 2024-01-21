@@ -180,7 +180,7 @@ Strategies:
 ````
 
 
-# General conservative configuration
+## General conservative configuration
 
 The only real way to configure your strategies is to try the parameters your self using the [experiments' repo notebooks](https://github.com/Pasta-fantasia/backtesting_notebooks).
 
