@@ -23,7 +23,7 @@
 - Initial investment: 1600.0
 - Final result: 6067.041624502614
 
-Interactive simulation graph: [bt_interactive_plot.html](bt_interactive_plot.html)
+Interactive simulation graph: no graph, too many data points.
 
 ## Details 
 ### Backtesting stats:
