@@ -5,7 +5,7 @@
 
 Experiment's source code can be found [here](https://github.com/Pasta-fantasia/backtesting_notebooks).
 
-## Scenarios and best results
+## Scenarios and best results for BTC
 
 DCA_Conditional_Buy_LR_with_TrailingStop works better on _1 day_ timeframe in any scenario. It took thousands of test sampling ranging dates to discard minute and hourly trading for this strategy.
 
@@ -154,3 +154,9 @@ From 2017-01-01 to 2024-01-20.
 
 ### Long Term
 [Binance_ETH-USDT_1d_2017-01-01_2017-01-01_2024-01-20_1610](LongTerm/Binance_ETH-USDT_1d_2017-01-01_2017-01-01_2024-01-20_1610/index.md)
+
+## HNT
+
+Scenario for HNT can't be the sames for other due to data lack in exchanges.
+
+[KuCoin_HNT-USDT_1d_2023-06-16_2023-06-16_2024-01-21_1731](HNT/KuCoin_HNT-USDT_1d_2023-06-16_2023-06-16_2024-01-21_1731/index.md)
