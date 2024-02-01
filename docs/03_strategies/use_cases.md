@@ -127,7 +127,7 @@ On every run the bots will:
   some exchanges limitations.
 
 Uses [Double Exponential Moving Average (DEMA)](https://www.investopedia.com/terms/d/double-exponential-moving-average.asp)
-on the Closes to calculate the stop loss and on Lows to calculate the stop price. 
+on the Closes to calculate the stop loss. Stop price is the stop loss minus a percentage.
 
 Why DEMA? Because it performed better on the simulations.
 
@@ -143,6 +143,8 @@ Why DEMA? Because it performed better on the simulations.
         config:
           band_length: 7
           band_mult: 1
+          band_low_pct: 3.8906
+          min_price_to_start_trailing: 0.0
           minimal_benefit_to_start_trailing: 0.3 # % minimal benefit, expressed as 5%, but minimal could be 0.3%
           asset_to_manage: 100%
 
@@ -151,10 +153,19 @@ Why DEMA? Because it performed better on the simulations.
 
 Parameters:
 
-- **band_length**: DEMA length.
+- **band_length**: DEMA length. Number of data point in the time_frame defined at bot level.
 - **band_mult**: standard deviation multiplier over band.
+- **band_low_pct**: percentage bellow stop loss to set the stop price.
+- **min_price_to_start_trailing**: price of the asset to start trailing
 - **minimal_benefit_to_start_trailing**: % minimal benefit, expressed as 5%, but minimal could be 0.3%
 - **asset_to_manage**: expressed a % or absolute is how much asset to manage.
+
+
+stop_loss = dema(ohlc.close,band_length) - ( std(ohlc.close,band_length) * band_mult )
+
+stop_price = stop_loss - band_low_pct%
+
+_band_low_pct_ in the examples coms from the down variance (open - low) of the price for the optimization period.
 
 ## DCA_Conditional_Buy_LR_with_TrailingStop
 
@@ -171,10 +182,15 @@ Strategies:
     bots:
       - id: DCA_LR_SL_BTC_USDT_1
         config:
-          spend_on_order: 100.0 # spend 100 USDT on every cycle
-          lr_buy_longitude: 5 # data points for linear regression
-          band_length: 7
-          band_mult: 1
+          spend_on_order: 200.0
+          daily_budget: 200.0
+          # weekly_budget: 0.0
+          spent_times_shift: "-5 hours"
+          lr_buy_longitude: 7
+          band_length: 34
+          band_mult: 2
+          band_low_pct: 3.8906
+          min_price_to_start_trailing: 0.0
           minimal_benefit_to_start_trailing: 0.3 # % minimal benefit, expressed as 5%, but minimal could be 0.3%
 
 ````
@@ -182,8 +198,14 @@ Strategies:
 Parameters:
 
 - **spend_on_order**: how much can spend on every single order, budget and balance are checked.
+- **daily_budget**: how much to spend by day. _spend_on_order_ = to 10, with a cron by hour will by 24 times and spend 240... unless _daily_budget_ is set to, for example, 100 then it will buy only 100 per day. Spend by day is calculated based on the buy orders.
+- **weekly_budget**: same as _daily_budget_ but for week.
+- **spent_times_shift**: -[timedelta](https://pandas.pydata.org/docs/reference/api/pandas.Timedelta.html) to shit the week or daily spend. Useful to start the day at 5am with _"-5 hours"_.
 - **lr_buy_longitude**: number of timeframe point to calculate the linear regression. In a 1d time fame is the number of
   days.
-- **band_length**: DEMA length.
+- **band_length**: DEMA length. Number of data point in the time_frame defined at bot level.
 - **band_mult**: standard deviation multiplier over band.
+- **band_low_pct**: percentage bellow stop loss to set the stop price.
+- **min_price_to_start_trailing**: price of the asset to start trailing
 - **minimal_benefit_to_start_trailing**: % minimal benefit, expressed as 5%, but minimal could be 0.3%
+- **asset_to_manage**: expressed a % or absolute is how much asset to manage.
