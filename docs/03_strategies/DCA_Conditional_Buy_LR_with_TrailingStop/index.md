@@ -142,7 +142,7 @@ From 2017-01-01 to 2024-01-20.
 
 ### Bear
 
-[Binance_ETH-USDT_1d_2021-11-12_2021-11-12_2024-01-20_1611](Bear/Binance_ETH-USDT_1d_2021-11-12_2021-11-12_2024-01-20_1611/index.md)
+[Binance_ETH-USDT_1d_2021-11-12_2021-11-12_2024-01-20_1611](Bear/Binance_ETH-USDT_1d/index.md)
 
 ### Range
 
