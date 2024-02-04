@@ -35,8 +35,8 @@ The modules are:
 python3 -m venv elena2_venv
 source elena2_venv/bin/activate
 pip install -U pip setuptools wheel
-pip install git+https://github.com/Pasta-fantasia/elena.git@v2.2.2
-pip install git+https://github.com/Pasta-fantasia/elena-basics.git@v0.0.5 
+pip install git+https://github.com/Pasta-fantasia/elena.git@v2.2.9
+pip install git+https://github.com/Pasta-fantasia/elena-basics.git@v0.0.15 
 pip install git+https://github.com/Pasta-fantasia/elena-notifications-telegram.git@v0.0.1
 ```
 
@@ -50,9 +50,9 @@ mkdir $HOME/local_data
 
 ```shell
 cd $HOME/local_data
-wget https://raw.githubusercontent.com/Pasta-fantasia/elena-docs/main/docs/assets/configs_2.2.2/config.yaml
-wget https://raw.githubusercontent.com/Pasta-fantasia/elena-docs/main/docs/assets/configs_2.2.2/secrets.yaml
-wget https://raw.githubusercontent.com/Pasta-fantasia/elena-docs/main/docs/assets/configs_2.2.2/strategies.yaml
+wget https://raw.githubusercontent.com/Pasta-fantasia/elena-docs/main/docs/assets/configs_2.2.9/config.yaml
+wget https://raw.githubusercontent.com/Pasta-fantasia/elena-docs/main/docs/assets/configs_2.2.9/secrets.yaml
+wget https://raw.githubusercontent.com/Pasta-fantasia/elena-docs/main/docs/assets/configs_2.2.9/strategies.yaml
 ```
 ## Test
 
