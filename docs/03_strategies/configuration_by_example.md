@@ -103,7 +103,7 @@ You split the 500 on ETH in two parametrization:
     - lr_buy_longitude: 6 
     - band_length: 11 
     - band_mult: 1
-- Up_and_down (from the [experiment](../03_strategies/DCA_Conditional_Buy_LR_with_TrailingStop/Up_and_down/Binance_ETH-USDT_1d_2019-11-01_2019-11-01_2024-01-20_1609/index.md))
+- Up_and_down (from the [experiment](DCA_Conditional_Buy_LR_with_TrailingStop/Up_and_down/Binance_ETH-USDT_1d/index.md))
     - lr_buy_longitude: 2 
     - band_length: 55
     - band_mult: 2

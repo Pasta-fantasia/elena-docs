@@ -150,7 +150,7 @@ From 2017-01-01 to 2024-01-20.
 
 ### Up_and_down
 
-[Binance_ETH-USDT_1d_2019-11-01_2019-11-01_2024-01-20_1609](Up_and_down/Binance_ETH-USDT_1d_2019-11-01_2019-11-01_2024-01-20_1609/index.md)
+[Binance_ETH-USDT_1d_2019-11-01_2019-11-01_2024-01-20_1609](Up_and_down/Binance_ETH-USDT_1d/index.md)
 
 ### Long Term
 [Binance_ETH-USDT_1d_2017-01-01_2017-01-01_2024-01-20_1610](LongTerm/Binance_ETH-USDT_1d_2017-01-01_2017-01-01_2024-01-20_1610/index.md)
