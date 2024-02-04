@@ -73,7 +73,7 @@ Strategies:
     bots:
       - id: DCA_BTC_USDT_1
         config:
-          spend_on_order: 10.0 # spend 100 USDT on every cycle
+          spend_on_order: 10.0 
 ````
 
 Parameters:
@@ -94,8 +94,8 @@ Strategies:
     bots:
       - id: DCA_LR_BTC_USDT_1
         config:
-          spend_on_order: 100.0 # spend 100 USDT on every cycle
-          lr_buy_longitude: 5 # data points for linear regression
+          spend_on_order: 100.0 
+          lr_buy_longitude: 5 
 
 ```
 
@@ -145,7 +145,7 @@ Why DEMA? Because it performed better on the simulations.
           band_mult: 1
           band_low_pct: 3.8906
           min_price_to_start_trailing: 0.0
-          minimal_benefit_to_start_trailing: 0.3 # % minimal benefit, expressed as 5%, but minimal could be 0.3%
+          minimal_benefit_to_start_trailing: 0.3 
           asset_to_manage: 100%
 
 
@@ -191,7 +191,7 @@ Strategies:
           band_mult: 2
           band_low_pct: 3.8906
           min_price_to_start_trailing: 0.0
-          minimal_benefit_to_start_trailing: 0.3 # % minimal benefit, expressed as 5%, but minimal could be 0.3%
+          minimal_benefit_to_start_trailing: 0.3 
 
 ````
 
