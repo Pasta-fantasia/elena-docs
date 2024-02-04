@@ -123,7 +123,7 @@ From 2017-01-01 to 2024-01-20.
 
 ### Up and down
 
-[Binance_BTC-USDT_1w_2019-11-01_2019-11-01_2024-01-20_1555](Up_and_down/Binance_BTC-USDT_1w_2019-11-01_2019-11-01_2024-01-20_1555/index.md)
+[Binance_BTC-USDT_1w_2019-11-01_2019-11-01_2024-01-20_1555](Up_and_down/Binance_BTC-USDT_1w/index.md)
 
 [Binance_BTC-USDT_1d_2019-11-01_2019-11-01_2024-01-20_1523](Up_and_down/Binance_BTC-USDT_1d/index.md)
 
