@@ -26,7 +26,6 @@
 - Initial investment: 1000.0
 - Final result: 3747.441391146377
 
-Interactive simulation graph: [bt_interactive_plot.html](bt_interactive_plot.html)
 
 ## Details 
 ### Backtesting stats:
