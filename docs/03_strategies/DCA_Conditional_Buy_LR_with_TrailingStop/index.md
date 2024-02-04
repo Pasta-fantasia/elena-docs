@@ -146,7 +146,7 @@ From 2017-01-01 to 2024-01-20.
 
 ### Range
 
-[Binance_ETH-USDT_1d_2022-06-16_2022-06-16_2024-01-20_1612](Range/Binance_ETH-USDT_1d_2022-06-16_2022-06-16_2024-01-20_1612/index.md)
+[Binance_ETH-USDT_1d_2022-06-16_2022-06-16_2024-01-20_1612](Range/Binance_ETH-USDT_1d/index.md)
 
 ### Up_and_down
 

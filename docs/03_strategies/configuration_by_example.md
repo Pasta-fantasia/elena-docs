@@ -99,7 +99,7 @@ From the [experiment](../03_strategies/DCA_Conditional_Buy_LR_with_TrailingStop/
 
 You split the 500 on ETH in two parametrization: 
 
-- Range (from the [experiment](../03_strategies/DCA_Conditional_Buy_LR_with_TrailingStop/Range/Binance_ETH-USDT_1d_2022-06-16_2022-06-16_2024-01-20_1612/index.md))
+- Range (from the [experiment](DCA_Conditional_Buy_LR_with_TrailingStop/Range/Binance_ETH-USDT_1d/index.md))
     - lr_buy_longitude: 6 
     - band_length: 11 
     - band_mult: 1
@@ -108,7 +108,7 @@ You split the 500 on ETH in two parametrization:
     - band_length: 55
     - band_mult: 2
 
-Optimization are only a guide and are based on history. The [ETH Range optimization](../03_strategies/DCA_Conditional_Buy_LR_with_TrailingStop/Range/Binance_ETH-USDT_1d_2022-06-16_2022-06-16_2024-01-20_1612/index.md) is band_length: 11, band_mult: 1, but it also says dca_budget=1600, buy_all_days=0. That means use all your budget once a week. The example bellow uses only 100 USDT per day.
+Optimization are only a guide and are based on history. The [ETH Range optimization](DCA_Conditional_Buy_LR_with_TrailingStop/Range/Binance_ETH-USDT_1d/index.md) is band_length: 11, band_mult: 1, but it also says dca_budget=1600, buy_all_days=0. That means use all your budget once a week. The example bellow uses only 100 USDT per day.
 
 Before using any bot with any configuration is better your check at least the simulation by your self, and then, if the parameters are compatible run it in the exchange test environment.
 
