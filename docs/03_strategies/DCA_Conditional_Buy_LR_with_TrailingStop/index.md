@@ -31,7 +31,7 @@ From: 2022-06-16 to 2023-03-10.
 - Initial investment: 1600.0
 - Final result: 2293.1481573890896
 
-[![Range_BTC_1d.png](scenarios/Range_BTC_1d.png)](/03_strategies/DCA_Conditional_Buy_LR_with_TrailingStop/Range/Binance_BTC-USDT_1d_2022-06-16_2022-06-16_2024-01-20_1515/bt_interactive_plot.html)
+[![Range_BTC_1d.png](scenarios/Range_BTC_1d.png)](/03_strategies/DCA_Conditional_Buy_LR_with_TrailingStop/Range/Binance_BTC-USDT_1d/bt_interactive_plot.html)
 
 
 ### Up and Down
@@ -54,7 +54,7 @@ From 2019-11-01 to 2022-01-23.
 - Initial investment: 1600.0
 - Final result: 16672.472925463277
 
-[![Up_and_Down_BTC_1d.png](scenarios/Up_and_Down_BTC_1d.png)](/03_strategies/DCA_Conditional_Buy_LR_with_TrailingStop/Up_and_down/Binance_BTC-USDT_1d_2019-11-01_2019-11-01_2024-01-20_1523/bt_interactive_plot.html)
+[![Up_and_Down_BTC_1d.png](scenarios/Up_and_Down_BTC_1d.png)](/03_strategies/DCA_Conditional_Buy_LR_with_TrailingStop/Up_and_down/Binance_BTC-USDT_1d/bt_interactive_plot.html)
 
 ### Bear
 
@@ -76,7 +76,7 @@ From 2021-11-12 to 2022-11-12.
 - Initial investment: 1600.0
 - Final result: 1522.72959918235
 
-[![Bear_BTC_1d.png](scenarios/Bear_BTC_1d.png)](/03_strategies/DCA_Conditional_Buy_LR_with_TrailingStop/Bear/Binance_BTC-USDT_1d_2021-11-12_2021-11-12_2024-01-20_1525/bt_interactive_plot.html)
+[![Bear_BTC_1d.png](scenarios/Bear_BTC_1d.png)](/03_strategies/DCA_Conditional_Buy_LR_with_TrailingStop/Bear/Binance_BTC-USDT_1d/bt_interactive_plot.html)
 
 
 ### Long Term
@@ -99,7 +99,7 @@ From 2017-01-01 to 2024-01-20.
 - Initial investment: 1600.0
 - Final result: 24420.601666443545
 
-[![Longterm_BTC_1d.png](scenarios/Longterm_BTC_1d.png)](/03_strategies/DCA_Conditional_Buy_LR_with_TrailingStop/LongTerm/Binance_BTC-USDT_1d_2017-01-01_2017-01-01_2024-01-20_1526/bt_interactive_plot.html)
+[![Longterm_BTC_1d.png](scenarios/Longterm_BTC_1d.png)](/03_strategies/DCA_Conditional_Buy_LR_with_TrailingStop/LongTerm/Binance_BTC-USDT_1d/bt_interactive_plot.html)
 
 
 
@@ -109,13 +109,9 @@ From 2017-01-01 to 2024-01-20.
 
 [Binance_BTC-USDT_1d_2021-11-12_2021-11-12_2024-01-20_1525](Bear/Binance_BTC-USDT_1d/index.md)
 
-[Binance_BTC-USDT_1h_2021-11-12_2021-11-12_2024-01-20_1541](Bear/Binance_BTC-USDT_1h_2021-11-12_2021-11-12_2024-01-20_1541/index.md)
-
 [Binance_BTC-USDT_1w_2021-11-12_2021-11-12_2024-01-20_1542](Bear/Binance_BTC-USDT_1w/index.md)
 
 ### Range
-
-[Binance_BTC-USDT_1h_2022-06-16_2022-06-16_2024-01-20_1538](Range/Binance_BTC-USDT_1h_2022-06-16_2022-06-16_2024-01-20_1538/index.md)
 
 [Binance_BTC-USDT_1d_2022-06-16_2022-06-16_2024-01-20_1515](Range/Binance_BTC-USDT_1d/index.md)
 
@@ -132,8 +128,6 @@ From 2017-01-01 to 2024-01-20.
 ### Long Term
 
 [Binance_BTC-USDT_1w_2017-01-01_2017-01-01_2024-01-20_1543](LongTerm/Binance_BTC-USDT_1w/index.md)
-
-[Binance_BTC-USDT_1h_2017-01-01_2017-01-01_2024-01-20_1633](LongTerm/Binance_BTC-USDT_1h_2017-01-01_2017-01-01_2024-01-20_1633/index.md)
 
 [Binance_BTC-USDT_1d_2017-01-01_2017-01-01_2024-01-20_1526](LongTerm/Binance_BTC-USDT_1d/index.md)
 
@@ -153,10 +147,6 @@ From 2017-01-01 to 2024-01-20.
 [Binance_ETH-USDT_1d_2019-11-01_2019-11-01_2024-01-20_1609](Up_and_down/Binance_ETH-USDT_1d/index.md)
 
 ### Long Term
-[Binance_ETH-USDT_1d_2017-01-01_2017-01-01_2024-01-20_1610](LongTerm/Binance_ETH-USDT_1d_2017-01-01_2017-01-01_2024-01-20_1610/index.md)
+[Binance_ETH-USDT_1d_2017-01-01_2017-01-01_2024-01-20_1610](LongTerm/Binance_ETH-USDT_1d/index.md)
 
-## HNT
 
-Scenario for HNT can't be the sames for other due to data lack in exchanges.
-
-[KuCoin_HNT-USDT_1d_2023-06-16_2023-06-16_2024-01-21_1731](HNT/KuCoin_HNT-USDT_1d_2023-06-16_2023-06-16_2024-01-21_1731/index.md)
