@@ -95,7 +95,7 @@ For BTC:
 - band_length: 34
 - band_mult: 2
 
-From the [experiment](../03_strategies/DCA_Conditional_Buy_LR_with_TrailingStop/Up_and_down/Binance_BTC-USDT_1d_2019-11-01_2019-11-01_2024-01-20_1523/index.md).
+From the [experiment](DCA_Conditional_Buy_LR_with_TrailingStop/Up_and_down/Binance_BTC-USDT_1d/index.md).
 
 You split the 500 on ETH in two parametrization: 
 
