@@ -119,7 +119,7 @@ From 2017-01-01 to 2024-01-20.
 
 [Binance_BTC-USDT_1d_2022-06-16_2022-06-16_2024-01-20_1515](Range/Binance_BTC-USDT_1d/index.md)
 
-[Binance_BTC-USDT_1w_2022-06-16_2022-06-16_2024-01-20_1537](Range/Binance_BTC-USDT_1w_2022-06-16_2022-06-16_2024-01-20_1537/index.md)
+[Binance_BTC-USDT_1w_2022-06-16_2022-06-16_2024-01-20_1537](Range/Binance_BTC-USDT_1w/index.md)
 
 ### Up and down
 
