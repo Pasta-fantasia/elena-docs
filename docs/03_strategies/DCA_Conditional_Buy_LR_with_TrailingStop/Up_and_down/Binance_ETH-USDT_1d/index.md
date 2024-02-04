@@ -1,27 +1,30 @@
 # Class: DCA_Conditional_Buy_LR_with_TrailingStop - Up_and_down - ETH/USDT - Binance
 
 - Experiment nickname: Up_and_down 
+- Experiment timestamp: 2024-02-04_1948 
 - Symbol: ETH/USDT
 - Exchange: Binance
 - Start date: 2019-11-01
 - End date: 2022-01-23
 - Timeframe: 1d
+- Duration: 19.38255548477173s
 
 ## Optimized parameters
 
-- band_lenght=55
+- band_length=21
 - band_mult=2
+- band_low_pct=3.8906393
 - minimal_benefit_to_start_trailing=1.003
 - reinvest=2
 - dca_budget=500
 - buy_all_days=1
-- lr_buy_longitude=2
+- lr_buy_longitude=12
 
 ## Results
 
-- Return: **1847.8581851160022%** over **1288.575267791748%** on buy and hold.
-- Initial investment: 1600.0
-- Final result: 31165.730961856036
+- Return: **1734.846979884518%** over **1288.575267791748%** on buy and hold.
+- Initial investment: 1000.0
+- Final result: 18348.46979884518
 
 Interactive simulation graph: [bt_interactive_plot.html](bt_interactive_plot.html)
 
@@ -32,30 +35,30 @@ Interactive simulation graph: [bt_interactive_plot.html](bt_interactive_plot.htm
 Start                     2019-11-01 00:00:00
 End                       2022-01-23 00:00:00
 Duration                    814 days 00:00:00
-Exposure Time [%]                   92.883436
-Equity Final [$]                 31165.730962
-Equity Peak [$]                  64730.100786
-Return [%]                        1847.858185
+Exposure Time [%]                   93.251534
+Equity Final [$]                 18348.469799
+Equity Peak [$]                  24356.900137
+Return [%]                         1734.84698
 Buy & Hold Return [%]             1288.575268
-Return (Ann.) [%]                  278.034828
-Volatility (Ann.) [%]               376.61535
-Sharpe Ratio                         0.738246
-Sortino Ratio                        5.027494
-Calmar Ratio                         4.964543
-Max. Drawdown [%]                  -56.004116
-Avg. Drawdown [%]                   -9.526198
-Max. Drawdown Duration      257 days 00:00:00
+Return (Ann.) [%]                  268.049881
+Volatility (Ann.) [%]              318.068292
+Sharpe Ratio                         0.842743
+Sortino Ratio                        5.625764
+Calmar Ratio                         5.841737
+Max. Drawdown [%]                  -45.885303
+Avg. Drawdown [%]                    -9.16283
+Max. Drawdown Duration      162 days 00:00:00
 Avg. Drawdown Duration       19 days 00:00:00
-# Trades                                  143
-Win Rate [%]                        65.034965
-Best Trade [%]                      504.38809
-Worst Trade [%]                    -49.879782
-Avg. Trade [%]                      10.475443
-Max. Trade Duration         238 days 00:00:00
-Avg. Trade Duration          95 days 00:00:00
-Profit Factor                         3.95892
-Expectancy [%]                      41.689598
-SQN                                  3.664743
+# Trades                                  119
+Win Rate [%]                         84.87395
+Best Trade [%]                     184.111011
+Worst Trade [%]                     -47.95594
+Avg. Trade [%]                      21.857992
+Max. Trade Duration         166 days 00:00:00
+Avg. Trade Duration          58 days 00:00:00
+Profit Factor                         5.87608
+Expectancy [%]                      29.426315
+SQN                                   7.30593
 _strategy                 DCA_Conditional_...
 _equity_curve                             ...
 _trades                         Size  Entr...
@@ -64,21 +67,22 @@ dtype: object
 
 ### Top 10 configurations
 
-|      |   band_lenght |   band_mult |   minimal_benefit_to_start_trailing |   reinvest |   dca_budget |   buy_all_days |   lr_buy_longitude |   Return [%] |
-|-----:|--------------:|------------:|------------------------------------:|-----------:|-------------:|---------------:|-------------------:|-------------:|
-| 1507 |            55 |           2 |                               1.003 |          2 |          500 |              1 |                  2 |      1847.86 |
-| 1397 |            55 |           1 |                               1.003 |          2 |          500 |              1 |                  2 |      1841    |
-|  856 |            13 |           2 |                               1.003 |          2 |          500 |              1 |                 11 |      1757.07 |
-|  857 |            13 |           2 |                               1.003 |          2 |          500 |              1 |                 12 |      1734.38 |
-| 1516 |            55 |           2 |                               1.003 |          2 |          500 |              1 |                 11 |      1697.47 |
-|  966 |            21 |           1 |                               1.003 |          2 |          500 |              1 |                 11 |      1691.49 |
-| 1485 |            55 |           2 |                               1.003 |          2 |          200 |              1 |                  2 |      1688.26 |
-|  967 |            21 |           1 |                               1.003 |          2 |          500 |              1 |                 12 |      1683.68 |
-| 1509 |            55 |           2 |                               1.003 |          2 |          500 |              1 |                  4 |      1682.22 |
-| 1531 |            55 |           2 |                               1.003 |          2 |         1600 |              1 |                  4 |      1664.56 |
+|      |   band_length |   band_mult |   band_low_pct |   minimal_benefit_to_start_trailing |   reinvest |   dca_budget |   buy_all_days |   lr_buy_longitude |   Return [%] |
+|-----:|--------------:|------------:|---------------:|------------------------------------:|-----------:|-------------:|---------------:|-------------------:|-------------:|
+| 1561 |            21 |           2 |        3.89064 |                               1.003 |          2 |          500 |              1 |                 12 |      1734.85 |
+| 1296 |            13 |           2 |        3.89064 |                               1.003 |          2 |          500 |              1 |                 11 |      1683.71 |
+| 1274 |            13 |           2 |        3.89064 |                               1.003 |          2 |          400 |              1 |                 11 |      1677.18 |
+| 1560 |            21 |           2 |        3.89064 |                               1.003 |          2 |          500 |              1 |                 11 |      1645.87 |
+| 1252 |            13 |           2 |        3.89064 |                               1.003 |          2 |          200 |              1 |                 11 |      1587.41 |
+| 1253 |            13 |           2 |        3.89064 |                               1.003 |          2 |          200 |              1 |                 12 |      1578.34 |
+| 1539 |            21 |           2 |        3.89064 |                               1.003 |          2 |          400 |              1 |                 12 |      1535.12 |
+| 1429 |            21 |           1 |        3.89064 |                               1.003 |          2 |          500 |              1 |                 12 |      1510.53 |
+| 1551 |            21 |           2 |        3.89064 |                               1.003 |          2 |          500 |              1 |                  2 |      1500.85 |
+| 1692 |            34 |           1 |        3.89064 |                               1.003 |          2 |          500 |              1 |                 11 |      1499.25 |
 
 ### Files
 
 - full: [heatmap.md](heatmap_df.md), [heatmap.xlsx](heatmap_df.xlsx) 
 - trades: [trades.md](trades.md) [trades.xlsx](trades.xlsx)
 - equity: [equity_curve.md](equity_curve.md) [equity_curve.xlsx](equity_curve.xlsx)
+
