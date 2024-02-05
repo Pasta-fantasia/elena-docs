@@ -17,19 +17,21 @@ From: 2022-06-16 to 2023-03-10.
 
 #### Optimized parameters
 
-- band_lenght=9
+- band_length=3
 - band_mult=1
+- band_low_pct=2.065553230602729
 - minimal_benefit_to_start_trailing=1.003
 - reinvest=2
-- dca_budget=1600
+- dca_budget=1000
 - buy_all_days=0
-- lr_buy_longitude=7
+- lr_buy_longitude=6
 
 #### Results
 
-- Return: **43.3217598368181%** over **-1.2284505259711431%** on buy and hold.
-- Initial investment: 1600.0
-- Final result: 2293.1481573890896
+- Return: **36.37531513528706%** over **-1.2284505259711431%** on buy and hold.
+- Initial investment: 1000.0
+- Final result: 1363.7531513528706
+
 
 [![Range_BTC_1d.png](scenarios/Range_BTC_1d.png)](/03_strategies/DCA_Conditional_Buy_LR_with_TrailingStop/Range/Binance_BTC-USDT_1d/bt_interactive_plot.html)
 
@@ -40,19 +42,20 @@ From 2019-11-01 to 2022-01-23.
 
 #### Optimized parameters
 
-- band_lenght=34
+- band_length=34
 - band_mult=2
+- band_low_pct=3.0025190627892058
 - minimal_benefit_to_start_trailing=1.003
 - reinvest=2
-- dca_budget=200
+- dca_budget=100
 - buy_all_days=1
-- lr_buy_longitude=7
+- lr_buy_longitude=10
 
 #### Results
 
-- Return: **942.0295578414548%** over **292.6135311175407%** on buy and hold.
-- Initial investment: 1600.0
-- Final result: 16672.472925463277
+- Return: **965.4840942441458%** over **292.6135311175407%** on buy and hold.
+- Initial investment: 1000.0
+- Final result: 10654.840942441459
 
 [![Up_and_Down_BTC_1d.png](scenarios/Up_and_Down_BTC_1d.png)](/03_strategies/DCA_Conditional_Buy_LR_with_TrailingStop/Up_and_down/Binance_BTC-USDT_1d/bt_interactive_plot.html)
 
@@ -62,8 +65,9 @@ From 2021-11-12 to 2022-11-12.
 
 #### Optimized parameters
 
-- band_lenght=3
+- band_length=3
 - band_mult=1
+- band_low_pct=2.8111930348691905
 - minimal_benefit_to_start_trailing=1.003
 - reinvest=2
 - dca_budget=50
@@ -72,9 +76,9 @@ From 2021-11-12 to 2022-11-12.
 
 #### Results
 
-- Return: **-4.829400051103121%** over **-73.78119881357838%** on buy and hold.
-- Initial investment: 1600.0
-- Final result: 1522.72959918235
+- Return: **-9.49249976588443%** over **-73.78119881357838%** on buy and hold.
+- Initial investment: 1000.0
+- Final result: 905.0750023411557
 
 [![Bear_BTC_1d.png](scenarios/Bear_BTC_1d.png)](/03_strategies/DCA_Conditional_Buy_LR_with_TrailingStop/Bear/Binance_BTC-USDT_1d/bt_interactive_plot.html)
 
@@ -85,19 +89,20 @@ From 2017-01-01 to 2024-01-20.
 
 #### Optimized parameters
 
-- band_lenght=34
+- band_length=34
 - band_mult=2
+- band_low_pct=2.815263919591264
 - minimal_benefit_to_start_trailing=1.003
 - reinvest=2
 - dca_budget=100
 - buy_all_days=1
-- lr_buy_longitude=2
+- lr_buy_longitude=7
 
 #### Results
 
-- Return: **1426.2876041527215%** over **868.7791126420045%** on buy and hold.
-- Initial investment: 1600.0
-- Final result: 24420.601666443545
+- Return: **1487.0788390592738%** over **904.5432166669%** on buy and hold.
+- Initial investment: 1000.0
+- Final result: 15870.788390592737
 
 [![Longterm_BTC_1d.png](scenarios/Longterm_BTC_1d.png)](/03_strategies/DCA_Conditional_Buy_LR_with_TrailingStop/LongTerm/Binance_BTC-USDT_1d/bt_interactive_plot.html)
 
