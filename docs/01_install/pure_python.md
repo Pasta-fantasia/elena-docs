@@ -75,7 +75,7 @@ source $HOME/.bashrc
 
 Download the cron shell script:
 ```
-wget https://raw.githubusercontent.com/Pasta-fantasia/elena-docs/main/docs/assets/configs_2.2.2/cron.sh
+wget https://raw.githubusercontent.com/Pasta-fantasia/elena-docs/main/docs/assets/configs_2.3.2/cron.sh
 ```
 
 Check that `cron.sh` is pointing to your Python virtual environment and `ELENA_HOME` by running `bash cron.sh`, you should find `last.log` file on `$HOME` with the same contents of the image above.
