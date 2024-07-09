@@ -36,7 +36,7 @@ python3 -m venv elena2_venv
 source elena2_venv/bin/activate
 pip install -U pip setuptools wheel
 pip install git+https://github.com/Pasta-fantasia/elena.git@v2.4.1
-pip install git+https://github.com/Pasta-fantasia/elena-basics.git@v0.1.4
+pip install git+https://github.com/Pasta-fantasia/elena-basics.git@v0.1.5
 pip install git+https://github.com/Pasta-fantasia/elena-notifications-telegram.git@v0.0.1
 ```
 
